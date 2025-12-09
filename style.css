@@ -1,0 +1,36 @@
+.ass {
+    background-color:red;
+    width:100px;
+    height:100px;
+    animation: mymove 5s infinite;
+    position: absolute;
+}
+
+@keyframes mymove {
+    0%{
+        top: 0px;
+        left: 0px;
+    rotate:-360deg;
+
+    }
+     25% {
+        
+        left: 200px;
+    }
+
+
+    50% {
+        top: 200px;
+    }
+
+     75% {
+        
+        left:0px;
+    }
+
+    100% {
+       top: 0px;
+       
+       rotate:360deg;
+    }
+}
